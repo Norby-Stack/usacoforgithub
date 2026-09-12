@@ -18,6 +18,8 @@ void solve()
             transitive.push_back(word);
         } else if (type == "intransitive-verb") {
             intransitive.push_back(word);
+        } else if (type == "conjunction") {
+            conjunction.push_back(word);
         }
     }
 }
