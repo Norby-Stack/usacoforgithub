@@ -14,7 +14,7 @@ int main()
     int addminus[1001] = {0};
 
     for (int i = 0; i < N; i++) {
-    addminus[time_shifts[i].first - 1] += 1;
+    addminus[time_shifts[i].first] += 1;
     addminus[time_shifts[i].second] -= 1;
     }
     
@@ -42,7 +42,7 @@ int main()
         
         int amountlost = 0;
 
-        for (int point = start-1;point < end;point++){
+        for (int point = start;point < end;point++){
             if (allcowsthing[point] == 1) 
                 amountlost += 1;
             
@@ -50,7 +50,7 @@ int main()
 
             
         }
-        cout << amountlost << endl;
+        
         smallest = min(smallest,amountlost);
 
     }
