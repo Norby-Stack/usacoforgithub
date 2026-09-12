@@ -42,7 +42,7 @@
                 if (get<1>(cowpoint)) {
                     cur_active_cows.insert(get<2>(cowpoint))
                 }else{
-                    cur_active_cows.remove(get<2>(cowpoint))
+                    cur_active_cows.erase(get<2>(cowpoint))
                 }
 
                 last = current_time;
