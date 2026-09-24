@@ -37,13 +37,13 @@ for (int i = 0; i < N; i++) {
     int max_milk = max({bessie_milk, elsie_milk, mildred_milk});
     if (bessie_milk == max_milk) current_leaders.push_back("Bessie");
     if (elsie_milk == max_milk) current_leaders.push_back("Elsie");
-    if (mildred_milk == max_milk) current_leaders.push_back("Mildred"); 
+    if (mildred_milk == max_milk) current_leaders.push_back("Mildred"); in p
 
     if (current_leaders != leader) {
         change_amount++;
         leader = current_leaders;
-    }
+    }i
 
 }
 cout << change_amount << endl;  
-}
+}       
