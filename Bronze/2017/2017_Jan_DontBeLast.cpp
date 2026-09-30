@@ -10,7 +10,7 @@ int main() {
         string a;
         cin >> a;
         cout << a;
-        return 1
+        return 1;
     }
     map<string, int> cows = {
         
