@@ -20,22 +20,7 @@ int total_visited = 1;
 
 //check left
 
-int checkkleft = pos;
-int jump = 1;
-
-while (checkkleft > 0) {
-    int cur_pos = cow_pos[checkkleft];
-    int previous = checkkleft;
-
-    while (checkkleft > 0 &&
-           cow_pos[checkkleft - 1] >= cur_pos - jump) {
-        total_visited++;
-        checkkleft--;
-    }
-
-    if (checkkleft == previous) {
-        break;
-    }
+       }
     jump++;
 }
 
