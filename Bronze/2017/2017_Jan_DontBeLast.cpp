@@ -1,7 +1,13 @@
-
-
 #include <bits/stdc++.h>
 using namespace std;
+
+// https://usaco.org/index.php?page=viewproblem2&cpid=687
+
+/*
+we just sort it and delete duplicates and we check if the size is 1 else 
+we can just find if the second smallest is a tie or not
+*/
+
 
 int main() {
     int N;
