@@ -1,8 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+we create a array of all the times each with a number for the amount of cows that will be working at that time
+then we can go through every cow and subtract its time from the arraw and we can count how many number of times we will lose if we fire 
+by checking if it is the only cow for that time. we will then find the minimun and subract the total from the smallest one
+*/
+
+
+
 int main() 
 {
+    // taking in input
     int N;
     cin >> N;
     
@@ -11,6 +20,9 @@ int main()
         cin >> time_shifts[i].first >> time_shifts[i].second;
         
     }
+
+    // this array cahnges 
+
     int addminus[1001] = {0};
 
     for (int i = 0; i < N; i++) {
@@ -23,6 +35,7 @@ int main()
 
     int amountoftimeworking = 0;
 
+    
     for (int i = 0; i <= 1000; i++) {
         int x = addminus[i];
         setting += x;

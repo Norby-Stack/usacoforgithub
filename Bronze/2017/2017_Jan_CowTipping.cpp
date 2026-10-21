@@ -2,7 +2,7 @@
 using namespace std;
 
 
-
+// https://usaco.org/index.php?page=viewproblem2&cpid=689
 
 /*
 tipping only 1 singular cow takes 4 steps for a cow that positions are not on the top or left and 2 if they are and 1 if they are both

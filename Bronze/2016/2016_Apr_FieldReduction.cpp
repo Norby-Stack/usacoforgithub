@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//url: https://usaco.org/index.php?page=viewproblem2&cpid=641
+
+
 // we can find the area of the fence by finding the min and max x and y coordinates of the cows
 int get_area(const set<pair<int, int>>& candidates) {
     int min_x = INT_MAX, max_x = INT_MIN;

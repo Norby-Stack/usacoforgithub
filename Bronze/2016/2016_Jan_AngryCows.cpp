@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//https://usaco.org/index.php?page=viewproblem2&cpid=592`
+
 /*
 we can see that the hay bails will explode only if it is in the distance of an exploding haybale
 so we can sort it and then we can check for each starting haybale and we can simulate the explosions since it is only 100 max

@@ -1,4 +1,10 @@
 # Source: https://usaco.guide/general/io
+# Url: https://usaco.org/index.php?page=viewproblem2&cpid=616
+
+'''
+we can simulate all possible starting positions for the cows and then we
+can find the maximun of them
+'''
 
 n = int(input())
 r = []
