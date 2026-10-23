@@ -43,6 +43,8 @@ cin >> N;
 
 int cur_cow;
 
+// counting the amount of odds and evens
+
 int evens = 0;
 int odds = 0;
 
@@ -54,7 +56,7 @@ for (int i = 0;i<N;i++) {
     odds++;
 }
 
-// main variables
+// implementing solution for the odd even logic
 
 if (odds == evens) {
     cout << N;
