@@ -8,34 +8,13 @@ My idea is to first loop through each member starting in the order from 0 to N-1
 then the cow called i will loop through each of the K publications. 
 
 Then we will with that cow loop through all the cows lets call it j in that publication
-and for each of those publication we can look at the left half of i and the right half
+and we can loop through all pairs of i and j
 
-1. for the left half this is always true in seniority
-    j <= i in seniority
-    
+we cam find the positions for the 2 cows and if we can confirm that the smaller one is not equal to the larger one
+then we will know if it is lower ranked or higher ranked than j depending on if i is the smaller or the larger of the 2
+we can check if they did not contribute the same by looking at the names and as long as one of the names is sorted from the right
+then we know that it that i and j are not the same and output the answqer
 
-    1. if i and j are alphebetically ordered and j is first
-    then that must mean that j is less in seniority 
-
-    This is because if they are the same seniority then they would sort by alphebetical order
-    but it is not in alphebetical order so that can only mean that cow i has higher signora 
-    so we output "1"
-
-    2. other wise, we would not be able to tell and we will output "?"
-
-
-
-2. for the right half this is always true in seniority
-    i <= j in seniority
-   
-    1. if i and j are alphebetically ordered and i is first
-    then that must mean that i is less in seniority because they cant be the same.
-    if they are the same then j should be ordered first but it isnt.
-    so we output "0"
-
-    2. other wise, we would not be able to tell and we will output "?"
-    
-we can just do this and output each every time
 
 */
 
