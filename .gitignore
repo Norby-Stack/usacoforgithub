@@ -1,2 +1,14 @@
 *.exe
 .vscode/
+
+# Compiler outputs (keep .out files available for expected-output fixtures).
+*.o
+*.obj
+a.out
+
+# Known extensionless executables; keep the corresponding source files tracked.
+/Bronze/2020/2020_Dec_StuckInARut
+/Bronze/2021/2021_Jan_EvenMoreOddPhotos
+/Bronze/2021/2021_Open_AcowdemiaI
+/Bronze/2022/2020_Jan_Herdle
+/Bronze/2022/2022_Jan_Herdle
