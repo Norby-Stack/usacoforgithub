@@ -5,6 +5,11 @@ using namespace std;
 we can first check the amount of green highlighted squares just by checking if 
 they are the same for the guess
 
+for the yellow highlighted squares we can check 
+for each index of our guess we will search the answer to find one that matches but
+that cannot be the same index as the guess and also cannot be a green highlighted square 
+or a previously yellow highlighted square.
+
 */
 
 int main() {
