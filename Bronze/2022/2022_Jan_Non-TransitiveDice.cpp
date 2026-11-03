@@ -9,6 +9,7 @@ then we compare the two totals and see which one is bigger
 
 there are 3 cases
 
+
 1. dice 1 beats dice 2
     if this is the case then dice 3 has to beat dice 1 but lose to dice 2
     in order for it to be non transitive
@@ -20,6 +21,7 @@ there are 3 cases
 3. dice 1 and dice 2 are equal
     if this is the case then they cannot be non transitive
 
+we will simulate all possible combinations for dice 3 and check for each of those cases and output them
 
 */
 
