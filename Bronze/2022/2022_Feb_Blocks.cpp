@@ -53,7 +53,7 @@ string sol(vector<string> &blocks) {
                     if (i==r || r==j ||j==i) continue; 
                     string block1 = blocks[i];
                     string block2 = blocks[r];
-                    string block3 = blocks[j];
+                    string block3 = blocks[j];  
                     for (int a = 0;a<6;a++){
                         for (int b = 0;b<6;b++){
                             for (int c = 0;c<6;c++){
